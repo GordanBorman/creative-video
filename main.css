@@ -6,7 +6,9 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font: grayscale;
+    margin: 0;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -15,13 +17,14 @@ a {
     color: inherit;
 }
 
-header ul {
+p {
+    margin: 0;
     padding: 0;
-    margin-top: 9px;
-    margin-left: 189px;
 }
 
-ul li {
+ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -52,12 +55,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu {
+    display: block;
     position: absolute;
-    top: 65px;
-    left: 250px;
+    top: 74px;
+    left: 443px;
 }
 
 .contacts {
+    font-style: normal;
+    text-align: right;
     position: absolute;
     top: 48px;
     right: 0px;
@@ -67,6 +73,10 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: middle;
     margin-right: 50px;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
 }
 
 .menu__item--active .menu__link {
@@ -83,25 +93,24 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF3D00;
 }
 
-.contacts {
-    font-style: normal;
-    text-align: right;
-}
-
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
     line-height: 2.6;
-    margin-right: 6px;
-    margin-bottom: 4px;
 }
 
 .contacts__dropdown-title {
-    margin-right: 10px;
-    margin-top: -23px;
+    position: absolute;
+    display: inline-block;
+    top: 44px;
+    right: 7px;
     font-size: 13px;
     text-decoration: underline;
     color: #FF3D00;
+}
+
+.hero {
+    margin-bottom: 233px;
 }
 
 .hero__text-section {
@@ -151,12 +160,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services {
-    margin-bottom: 180px;
-}
-
-.services__list {
-    margin-top: 233px;
-    margin-left: -40px;
     margin-bottom: 186px;
 }
 
@@ -169,6 +172,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 23px;
     width: 362px;
     border: 4px solid white;
+    padding: 20px 20px 40px 20px;
 }
 
 .services__item:hover {
@@ -181,11 +185,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__header {
     min-height: 40px;
+    padding-top: 15px;
+    padding-left: 7px;
 }
 
 .services-pic {
-    margin-top: 37px;
-    margin-left: 29px;
     margin-bottom: 22px;
 }
 
@@ -195,13 +199,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 14px;
-    margin-left: 22px;
 }
 
 .services__features {
     font-size: 16px;
     color: black;
-    padding-left: 20px;
     margin-bottom: 25px;
 }
 
@@ -224,20 +226,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;  
     line-height: 1.6;  
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-bottom: 28px;
 }
 
 .services-button {
     color: #FF3D00;
-    margin-left: 24px;
     background: white;
     border: 2px solid #FF3D00 ;
 }
 
 .services-button:hover {
     color: #fff;
+}
+
+.news-actions {
+    margin-bottom: 144px;
 }
 
 .news-actons__title {
@@ -249,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .news-actions__list {
     padding-left: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 46px;
 }
 
 .news-actions__item {
@@ -302,7 +305,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .paginator {
     text-align: center;
-    margin-bottom: 129px;
 }
 
 .paginator__display,.paginator__list {
@@ -311,12 +313,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .paginator__list {
-    margin-top: 18px;
+    margin-top: 6px;
     padding-left: 0;
 }
 
 .paginator__display {
-    margin-left: 20px;
+    margin-left: 17px;
     margin-right: 20px;
 }
 
@@ -341,13 +343,17 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 32px;
 }
 
-.about-us:before {
+.container__about-us--decor:before {
     content: "";
     display: inline-block;
     vertical-align: top;
     width: 490px;
     height: 505px;
     background: url("img/about-us.png") center center / cover no-repeat;
+}
+
+.about-us {
+    margin-bottom: 50px;
 }
 
 .about-us__desc {
@@ -389,21 +395,32 @@ h1, h2, h3, h4, h5, h6 {
     padding: 18px 42px;
 }
 
+.main-footer {
+    position: relative;
+}
+
 .footer-container {
     display: block;
     height: 85px;
     position: relative;
 }
 
-.logo__img--footer {
-    margin-top: 40px;
+.footer-container__logo {
+    top: 47px;
+    left: 5px;
+}
+
+.footer-container--menu {
+    display: inline-block;
+    top: 62px;
+    left: 332px;
 }
 
 .social-network {
     display: inline-block;
     position: absolute;
-    top: 90px;
-    right: 119px;
+    top: 57px;
+    right: 270px;
 }
 
 .social-network__item {
@@ -457,8 +474,20 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(./img/insta.png);
 }
 
+.footer-container--phone {
+    top: 52px;
+    right: 3px;
+}
+
 .contacts__text {
+    position: absolute;
+    display: block;
+    top: -1px;
+    right: 2px;
     font-size: 11px;
     text-align: right;
 }
 
+.footer-container__content {
+    border-top: 1px solid #fff 0,1;
+}

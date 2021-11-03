@@ -1,0 +1,53 @@
+.about-us {
+  margin-bottom: 50px;
+}
+
+.container__about-us--decor {
+  display: flex;
+}
+
+.container__about-us--decor:before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("../../img/about-us.png") center center / cover no-repeat;
+  display: block;
+}
+
+.about-us__desc {
+ /* display: inline-block;
+  vertical-align: top;*/
+  background: white;
+  min-height: 450px;
+  padding: 70px 200px 64px 80px;
+  color: black;
+  max-width: 785px;
+  border-radius: 5px;
+  margin-left: -136px;
+  margin-top: 98px;
+}
+
+.about-us__title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.about-us__desc-text {
+  margin-bottom: 45px;
+  line-height: 1.63;
+}
+
+.about-us__desc-text p {
+  margin-bottom: 20px;
+}
+
+.about-us__desc-text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about-us__button {
+  color: #fff;
+  text-align: center;
+  
+}

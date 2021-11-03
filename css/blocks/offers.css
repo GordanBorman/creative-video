@@ -1,0 +1,97 @@
+.offers {
+  margin-bottom: 180px;
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  min-height: 473px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  /*vertical-align: middle;
+  /*margin-right: 23px;*/
+  width: calc(100% / 3 - 18px);
+  border: 4px solid white;
+  padding: 20px 20px 47px 20px;
+}
+
+.offers__item:hover {
+  border: 4px solid grey ; 
+}
+
+.offers__item:last-child {
+  margin-right: 0px;
+}
+
+.offers__header {
+  min-height: 40px;
+  padding-top: 15px;
+  padding-left: 7px;
+  margin-bottom: 7px;
+}
+
+.offers-pic {
+  margin-bottom: 22px;
+}
+
+.offers__item-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.offers__title {
+  display: block;
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.offers__features {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 25px;
+  padding-right: 10px;
+}
+
+.offers__feature {
+  max-width: 123px;
+}
+
+.offers__feature:last-child {
+  margin-right: 0;
+}
+
+.offers__special {
+  font-weight: bold;
+}
+
+.offers__text {
+  font-size: 14px;  
+  line-height: 1.6;  
+  color: black;
+}
+
+.offers-button {
+  color: #FF3D00;
+  background: white;
+  border: 2px solid #FF3D00 ;
+}
+
+.offers-button:hover {
+  color: #fff;
+}
+
+.offers__button-wraper {
+  display: flex;
+  justify-content: start;
+  margin-top: auto;
+}

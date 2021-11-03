@@ -1,0 +1,41 @@
+.main-footer {
+  display: flex;
+  align-items: center;
+  padding-top: 46px;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.footer__col--right {
+  justify-content: flex-end;
+}
+
+.footer-container {
+  display: block;
+}
+
+.footer-container--menu .menu__list {
+  margin-right: -20px;
+}
+
+.footer-container--phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container__content {
+  border-top: 1px solid #fff;
+}
+
+.main-footer__contacts-text {
+  /*display: block;*/
+  top: -1px;
+  right: 2px;
+  font-size: 11px;
+  text-align: right;
+}

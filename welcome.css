@@ -1,0 +1,49 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./img/rec.png') center center / 80vw no-repeat, url('./img/bg-welcome.png') center center / cover no-repeat;
+}
+
+.central {
+  margin-top: 33px;
+  opacity: 0;
+  animation: rotateIn 1s;
+  animation-fill-mode: forwards;
+  text-align: center;
+} 
+
+.central__logo {
+  margin-bottom: 65px;
+  height: 114px;
+  width: 508px;
+}
+
+.welcome__button {
+  min-width: 168px;
+}
+
+@keyframes rotateIn {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+ 

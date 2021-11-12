@@ -1,0 +1,25 @@
+.top-line-reviews {
+  margin-bottom: 63px;
+}
+
+.review-header-menu {
+  margin-left: 3px;
+  padding-top: 7px;
+}
+
+.menu__item-review {
+  margin-right: 54px;
+}
+
+.menu__item-review:last-child {
+  margin-right: 0;
+}
+
+.contacts__dropdown-title-review {
+  margin-top: -4px;
+  margin-right: 0;
+}
+
+.page-title-reviews {
+  margin-left: 6px;
+}

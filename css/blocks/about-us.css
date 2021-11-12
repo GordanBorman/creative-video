@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 
 .container__about-us--decor {
@@ -15,8 +15,7 @@
 }
 
 .about-us__desc {
- /* display: inline-block;
-  vertical-align: top;*/
+ 
   background: white;
   min-height: 450px;
   padding: 70px 200px 64px 80px;

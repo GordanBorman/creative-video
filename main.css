@@ -1,7 +1,8 @@
 @import url('./css/layout/fonts.css');
 @import url('./css/layout/normalize.css');
 @import url('./css/layout/base.css');
-
+/*Главная*/
+@import url('./css/blocks/main-page-wraper.css');
 @import url('./css/blocks/about-us.css');
 @import url('./css/blocks/button.css');
 @import url('./css/blocks/contacts.css');
@@ -9,12 +10,35 @@
 @import url('./css/blocks/header.css');
 @import url('./css/blocks/hero.css');
 @import url('./css/blocks/logo.css');
-@import url('./css/blocks/main-page-wraper.css');
 @import url('./css/blocks/menu.css');
 @import url('./css/blocks/news.css');
 @import url('./css/blocks/paginator.css');
 @import url('./css/blocks/offers.css');
 @import url('./css/blocks/social-network.css');
+@import url('./css/blocks/contacts-shedule.css');
+/*Услуги*/
+@import url('./css/blocks/services/breadrumbs.css');
+@import url('./css/blocks/services/footer.css');
+@import url('./css/blocks/services/header-services.css');
+@import url('./css/blocks/services/inner-section.css');
+@import url('./css/blocks/services/page-content.css');
+@import url('./css/blocks/services/paginator.css');
+@import url('./css/blocks/services/partners.css');
+@import url('./css/blocks/services/services.css');
+@import url('./css/blocks/services/top-line.css');
+/*Отзывы*/
+@import url('./css/blocks/reviews/top-line(header).css');
+@import url('./css/blocks/reviews/reviews.css');
+@import url('./css/blocks/reviews/review.css');
+@import url('./css/blocks/reviews/paginator.css');
+@import url('./css/blocks/reviews/separator.css');
+@import url('./css/blocks/reviews/inner-section.css');
+@import url('./css/blocks/reviews/form.css');
+@import url('./css/blocks/reviews/controls.css');
+@import url('./css/blocks/reviews/buttons.css');
+
+
+
 
 
 

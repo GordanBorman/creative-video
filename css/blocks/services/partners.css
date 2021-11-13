@@ -17,6 +17,7 @@
   justify-content: center;
   margin-bottom: 21px;
   filter: grayscale(100%);
+  transition: filter .3s;
 }
 
 .partners__item:hover {

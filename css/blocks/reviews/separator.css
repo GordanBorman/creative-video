@@ -1,5 +1,5 @@
 .separator {
-  background: url('./img/party.png') right 20% bottom no-repeat;
+  background: url('../../../img/party.png') right 20% bottom no-repeat;
   background-color:  #373737;
   min-height: 363px;
 }

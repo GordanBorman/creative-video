@@ -1,0 +1,53 @@
+.hero {
+  background-color: $grey;
+  height: 100vh;
+  min-height: 650px;
+  position: relative;
+  color: #292929;
+}
+
+.decor-grey-rectangle {
+  width: 46px;
+  height: 10px;
+  background-color: #C4C4C4;
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: 0;
+  right: 5%;
+}
+
+.hero__container {
+  background: url("../img/headphones.png") right 5% center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 24px 0 55px;
+}
+
+.hero__title-section {
+  max-width: 39%;
+  font-family: $font2;
+}
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+
+.hero__title-desc {
+  font-size: 21px;
+  margin-bottom: 25px;
+  font-family: $font1;
+  padding-right: 12%;
+  line-height: 1.25;
+}
+
+.test {
+  min-height: 250px;
+}
+
+

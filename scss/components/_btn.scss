@@ -1,0 +1,42 @@
+.btn {
+  display: block;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 18px 35px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  line-height: 1;
+  border: 1px solid #E01F3D;
+  
+  &--submit {
+    background: #E01F3D;
+    font-family: Play, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 163px;
+    color: white;
+    transition: background 0.3s;
+    margin-right: 15px;
+    &:hover {
+      color: #E01F3D;
+      background: white;
+      border: 1px solid #E01F3D ;
+      transition: background 0.3s;
+    }
+  }
+
+  &--reset {
+    background: transparent;
+    color: #000;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-family: $font2;
+    color: #fff;
+
+    &:hover {
+      color: #E01F3D;
+    }
+  }
+ 
+
+}

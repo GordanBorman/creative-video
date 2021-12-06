@@ -1,0 +1,55 @@
+.order-section {
+  background: url('../img/cta.png') center bottom / cover;
+  height: 100vh;
+  min-height: 650px;
+  position: relative;
+}
+
+.order-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.decor-pentagon-wraper {
+  position: absolute;
+  top: -4%;
+  right: 2%;
+  z-index: 100;
+  transform: rotate(-15deg);
+}
+
+.decor-pentagon {
+  height: 50px;
+  width: 55px;
+  position: relative;
+
+  &--triangle {
+    width: 57px;
+    border: 18px  solid;
+    border-top: 0;
+    border-right: 27px solid;
+    border-left: 27px solid;
+    border-color: transparent transparent red transparent;
+    position: absolute;
+    bottom: 26px;
+    left: -1px;
+    z-index: 100;
+  }
+    
+  &--trapezoid {
+    height: 00px;
+    width: 55px;
+    border-top: 27px solid red;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.order-section-title {
+  color: #fff;
+}
